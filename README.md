@@ -2,6 +2,8 @@
 
 Criação de uma página web com a resolução de exercícios do Bootcamp Ustart - Aula 03
 
+![image](assets/img/index.JPG)
+
 ###
 
 ## Enunciado dos exercícios
