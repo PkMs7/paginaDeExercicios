@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <title>Guinnes Altura</title>
+</head>
+
+<body>
+    <h1>Comparação de alturas registradas</h1>
+
+    <label for="">Cadastrar altura</label>
+    <input type="number" id="valorAltura"><br>
+
+    <label for="">Cadastrar sexo</label>
+    <select name="sexo" id="valorSexo">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+    </select><br>
+
+    <button onclick="inserirDados()">Enviar Dados</button>
+    <button onclick="listarQuantidadeHomens()">Quantidade Homens</button>
+    <button onclick="listarQuantidadeMulheres()">Quantidade Mulheres</button>
+    <button onclick="listarDadosMaiorAltura()">Maior Altura</button>
+
+    <hr>
+
+    <div id="listaPessoas"></div>
+
+    <div><a href="../../index.html">Voltar</a></div>
+</body>
+
+</html>
