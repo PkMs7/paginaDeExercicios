@@ -104,7 +104,7 @@ const inserirDados = () => {
     let valorAltura = document.getElementById("valorAltura").value;
     let valorSexo = document.getElementById("valorSexo").value;
 
-    bancoAltura.push(valorAltura);
+    bancoAltura.push(parseInt(valorAltura));
     bancoSexo.push(valorSexo);
 
 }
@@ -127,12 +127,64 @@ const listarQuantidadeMulheres = () => {
 
 const listarDadosMaiorAltura = () => {
 
-    const maiorAltura = parseInt(bancoAltura.reduce((val1, val2) => Math.max(val1, val2)));
+    const maiorAltura = bancoAltura.reduce((val1, val2) => Math.max(val1, val2));
     const indexMaiorAltura = bancoAltura.indexOf(maiorAltura);
-    const sexoMaiorAltura = bancoSexo[indexMaiorAltura];
+    const sexoMaiorAltura = bancoSexo[indexMaiorAltura].toUpperCase();
 
-    const dadosMaiorAltura = `A maior altura cadastrada é ${maiorAltura} e o sexo dessa pessoa é ${sexoMaiorAltura}`
+    const dadosMaiorAltura = `A maior altura cadastrada é ${maiorAltura} e o sexo dessa pessoa é <b>${sexoMaiorAltura}</b>`
+
 
     document.getElementById("listaPessoas").innerHTML = dadosMaiorAltura;
+
+}
+
+// Exercício inverter
+
+var bancoNomes = [];
+var bancoNomesInvertidos = [];
+
+const inserirNomes = () => {
+
+    let valorNome = document.getElementById("valorNome").value;
+    
+    bancoNomes.push(valorNome);
+
+    imprimirNomes();
+
+}
+
+const imprimirNomes = () => {
+
+    const listaDeNomesRegistrados = bancoNomes.filter(x => x).join(" | ");
+
+    document.getElementById("listaNomes").innerHTML = listaDeNomesRegistrados;
+
+}
+
+const inverterNomes = () => {
+
+    bancoNomesInvertidos = bancoNomes.reverse();
+
+    const listaDeNomesInvertidos = bancoNomesInvertidos.filter(x => x).join(" | ");
+
+    document.getElementById("listaNomesInvertidos").innerHTML = listaDeNomesInvertidos;
+
+}
+
+// Exercício data
+
+const transformarData = () => {
+
+    let valorData = document.getElementById("valorData").value;
+
+    let dia = valorData[8] + valorData[9];
+    let mes = valorData[5] + valorData[6];
+    let ano = valorData[0] + valorData[1] + valorData[2] + valorData[3];
+
+    let mensagem = `O dia selecionado foi: ${dia}<br>
+                    O mês selecionado foi: ${mes}<br>
+                    O ano selecionado foi: ${ano}`;
+
+    document.getElementById("dataSeparada").innerHTML = mensagem;
 
 }
