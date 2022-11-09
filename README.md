@@ -31,6 +31,6 @@ na tela quantas pessoas são do sexo masculino e quantas pessoas são do sexo fe
 - [x] Criação da página index.html
 - [x] Criação das páginas de cada exercício (html)
 - [x] Criação dos scripts de cada página
-- [ ] Estilização da página index.html com CSS
+- [x] Estilização da página index.html com CSS
 - [ ] Estilização das páginas de exercícios com CSS
 - [ ] Finalização do projeto com README.md
