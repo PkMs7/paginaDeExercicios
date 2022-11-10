@@ -8,16 +8,24 @@
     <script src="../scripts/script.js" defer></script>
     <title>Raiz Quadrada</title>
 </head>
-<body>
-    <h1>Cálculo de Raiz Quadrada</h1>
+<body class="raiz-quadrada">
+    <div class="container-raiz-quadrada">
 
-    <label for="">Digite o valor para elevar ao quadrado</label>
-    <input type="number" id="valorRaizQuadrada">
+        <div class="raiz-quadrada-title">
+            <h1>Cálculo de Raiz Quadrada</h1>
+        </div>
+        <div class="container-form-raiz-quadrada">
+            <div class="container-input-raiz-quadrada">
+                <label for="">Digite o valor para elevar ao quadrado</label>
+                <input type="number" id="valorRaizQuadrada">
+            </div>
+            <div id="resultadoRaizQuadrada"></div>
+            <div class="buttons-raiz-quadrada">
+                <button onclick="imprimirRaizQuadrada()">Calcular</button>
+                <a href="../../index.html">Voltar</a>
+            </div>
+        </div>
 
-    <button onclick="imprimirRaizQuadrada()">Calcular</button>
-
-    <div id="resultadoRaizQuadrada"></div>
-
-    <div><a href="../../index.html">Voltar</a></div>
+    </div>
 </body>
 </html>

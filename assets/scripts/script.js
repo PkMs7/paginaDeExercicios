@@ -13,7 +13,7 @@ const imprimirRaizQuadrada = () => {
 
     const valor = document.getElementById("valorRaizQuadrada").value;
 
-    let impressao = `A raiz quadrada de ${valor} é ${calcularRaizQuadrada().toFixed(2)}`
+    let impressao = `A raiz quadrada de ${valor} é <b>${calcularRaizQuadrada().toFixed(2)}</b>`
 
     document.getElementById("resultadoRaizQuadrada").innerHTML = impressao;    
 
@@ -30,6 +30,8 @@ const inserirNumeroNaLista = () => {
 
     bancoNumeros.push(valor);
 
+    imprimirListaDeNumeros();
+
 }
 
 const imprimirListaDeNumeros = () => {
@@ -44,7 +46,7 @@ const imprimirNumeroMaior = () => {
 
     const numeroMaior = bancoNumeros.reduce((val1, val2) => Math.max(val1, val2));
 
-    document.getElementById("listaNumeros").innerHTML = numeroMaior;
+    document.getElementById("maiorMenor").innerHTML = numeroMaior;
 
 }
 
@@ -52,7 +54,7 @@ const imprimirNumeroMenor = () => {
 
     const numeroMenor = bancoNumeros.reduce((val1, val2) => Math.min(val1, val2));
 
-    document.getElementById("listaNumeros").innerHTML = numeroMenor;
+    document.getElementById("maiorMenor").innerHTML = numeroMenor;
 
 }
 
