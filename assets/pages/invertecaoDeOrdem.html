@@ -5,26 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styleIvercaoDeOrdem.css">
     <script src="../scripts/script.js" defer></script>
     <title>Inverter Ordem</title>
 </head>
 
-<body>
-    <h1>Inverter a lista de nomes digitados</h1>
+<body class="inverter-ordem">
 
-    <label for="">Digite um nome</label>
-    <input type="text" id="valorNome"><br>
+    <div class="container-inverter-ordem">
 
-    <button onclick="inserirNomes()">Enviar Nome</button>
-    <button onclick="inverterNomes()">Inverter</button>
+       <div class="container-form-inverter-ordem">
+            <h1>Inverter a lista de nomes digitados</h1>
+            <div class="container-input-inverter-ordem">
+                <label for="">Digite um nome</label>
+                <input type="text" id="valorNome"><br>
+            </div>
+            
+            <div id="listaNomes"></div>
+            <div id="listaNomesInvertidos"></div>
 
-    <hr>
+            <div class="buttons-inverter-ordem">
+                <button onclick="inserirNomes()">Enviar Nome</button>
+                <button onclick="inverterNomes()">Inverter</button>
+                <a href="../../index.html">Voltar</a>
+            </div>
+        </div>
+    </div>
 
-    <div id="listaNomes"></div>
-    <div id="listaNomesInvertidos"></div>
-
-    <div><a href="../../index.html">Voltar</a></div>
 </body>
 
 </html>

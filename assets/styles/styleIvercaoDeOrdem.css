@@ -1,0 +1,115 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,700;1,900&display=swap');
+
+.inverter-ordem {
+
+    background-image: url(../img/backgrounds/backgroundInverterOrdem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-inverter-ordem {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.container-form-inverter-ordem {
+
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    width: 35%;
+
+}
+
+.container-input-inverter-ordem {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-input-inverter-ordem label {
+
+    margin: 25px;
+
+}
+
+.container-input-inverter-ordem input {
+
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.buttons-inverter-ordem {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+#listaNomes {
+    
+    font-size: 35px;
+    margin: 15px;
+    color: orangered;
+    
+}
+
+#listaNomesInvertidos {
+
+    font-size: 35px;
+    margin: 15px;
+    color: orangered;
+
+}
+
+.buttons-inverter-ordem a {
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+.buttons-inverter-ordem a:hover {
+
+    background-color: rgba(0, 0, 0, 0.797);
+
+}
+
+.buttons-inverter-ordem button {
+
+    background-color: blue;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.buttons-inverter-ordem button:hover {
+
+    background-color: rgba(0, 0, 255, 0.852);
+    cursor: pointer;
+
+}
