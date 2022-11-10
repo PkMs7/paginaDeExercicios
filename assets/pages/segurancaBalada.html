@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styleSegurancaBalada.css">
     <script src="../scripts/script.js" defer></script>
     <title>Segurança de Balada</title>
 </head>
-<body>
-    <h1>Encontrar Maiores de Vinte</h1>
+<body class="seguranca-balada">
 
-    <label for="">Cadastre a idade</label>
-    <input type="number" id="valorIdade">
+    <div class="container-seguranca-balada">
+        <div class="title-seguranca-balada">
+            <h1>Encontrar Maiores de Vinte</h1>
+        </div>
+        <div class="container-form-seguranca-balada">
+            <div class="container-input-seguranca-balada">
+                <label for="">Cadastre a idade</label>
+                <input type="number" id="valorIdade">
+            </div>
+            <div id="listaIdades"></div>
+            <div id="quantidadeIdades"></div>
+            <div class="buttons-seguranca-balada">
+                <button onclick="inserirIdadeNaLista()">Inserir Idade</button>
+                <button onclick="imprimirMaioresDeVinte()">Quantidade 20 +</button>
+                <button onclick="imprimirMenoresDeVinte()">Quantidade 20 -</button>
+                <a href="../../index.html">Voltar</a>
+            </div>
+        </div>
+    </div>
 
-    <button onclick="inserirIdadeNaLista()">Inserir Idade</button>
-    <button onclick="imprimirListaIdades()">Idades Cadastradas</button>
-    <button onclick="imprimirMaioresDeVinte()">Maior</button>
-    <button onclick="imprimirMenoresDeVinte()">Menor</button>
-
-    <div id="listaIdades"></div>
-
-    <div><a href="../../index.html">Voltar</a></div>
 </body>
 </html>

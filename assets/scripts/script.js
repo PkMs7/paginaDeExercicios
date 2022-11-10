@@ -69,6 +69,8 @@ const inserirIdadeNaLista = () => {
 
     bancoIdades.push(valor);
 
+    imprimirListaIdades();
+
 }
 
 const imprimirListaIdades = () => {
@@ -83,7 +85,7 @@ const imprimirMaioresDeVinte = () => {
 
     const quantidadeMaioresDeVinte = bancoIdades.filter(x => x >= 20).length;
 
-    document.getElementById("listaIdades").innerHTML = quantidadeMaioresDeVinte;
+    document.getElementById("quantidadeIdades").innerHTML = quantidadeMaioresDeVinte;
     
 }
 
@@ -91,7 +93,7 @@ const imprimirMenoresDeVinte = () => {
 
     const quantidadeMenoresDeVinte = bancoIdades.filter(x => x < 20).length;
 
-    document.getElementById("listaIdades").innerHTML = quantidadeMenoresDeVinte;
+    document.getElementById("quantidadeIdades").innerHTML = quantidadeMenoresDeVinte;
     
 }
 

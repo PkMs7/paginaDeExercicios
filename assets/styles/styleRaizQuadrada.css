@@ -1,0 +1,111 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,700;1,900&display=swap');
+
+.raiz-quadrada {
+
+    background-image: url(../img/backgrounds/backgroundRaizQuadrada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-raiz-quadrada {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.container-form-raiz-quadrada {
+
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    width: 35%;
+
+}
+
+.container-input-raiz-quadrada {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-input-raiz-quadrada label {
+
+    margin: 25px;
+
+}
+
+.container-input-raiz-quadrada input {
+
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.buttons-raiz-quadrada {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+#resultadoRaizQuadrada {
+    
+    margin: 15px;
+    
+}
+
+#resultadoRaizQuadrada b {
+
+    color: orangered;
+
+}
+
+.buttons-raiz-quadrada a {
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+.buttons-raiz-quadrada a:hover {
+
+    background-color: rgba(0, 0, 0, 0.797);
+
+}
+
+.buttons-raiz-quadrada button {
+
+    background-color: blue;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.buttons-raiz-quadrada button:hover {
+
+    background-color: rgba(0, 0, 255, 0.852);
+    cursor: pointer;
+
+}
