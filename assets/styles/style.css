@@ -139,7 +139,7 @@ body {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -218,6 +218,7 @@ body {
     background-color: white;
     border-radius: 4px;
     width: 55%;
+    height: 195px;
 
 }
 

@@ -32,7 +32,19 @@ na tela quantas pessoas são do sexo masculino e quantas pessoas são do sexo fe
 
 - [x] Criação da página index.html
 - [x] Criação das páginas de cada exercício (html)
-- [x] Criação dos scripts de cada página
+- [x] Criação dos scripts
+  - [x] Página Raiz Quadrada
+  - [x] Página Maior e Menor
+  - [x] Página Segurança da Balada
+  - [x] Página Exercício de Comparação de Altura
+  - [x] Página Inverção de Ordem
+  - [x] Página Data
 - [x] Estilização da página index.html com CSS
 - [ ] Estilização das páginas de exercícios com CSS
+  - [x] Página Raiz Quadrada
+  - [x] Página Maior e Menor
+  - [ ] Página Segurança da Balada
+  - [ ] Página Exercício de Comparação de Altura
+  - [ ] Página Inverção de Ordem
+  - [ ] Página Data
 - [ ] Finalização do projeto com README.md
