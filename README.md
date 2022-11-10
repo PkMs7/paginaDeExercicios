@@ -40,11 +40,11 @@ na tela quantas pessoas são do sexo masculino e quantas pessoas são do sexo fe
   - [x] Página Inverção de Ordem
   - [x] Página Data
 - [x] Estilização da página index.html com CSS
-- [ ] Estilização das páginas de exercícios com CSS
+- [x] Estilização das páginas de exercícios com CSS
   - [x] Página Raiz Quadrada
   - [x] Página Maior e Menor
-  - [ ] Página Segurança da Balada
-  - [ ] Página Exercício de Comparação de Altura
-  - [ ] Página Inverção de Ordem
-  - [ ] Página Data
-- [ ] Finalização do projeto com README.md
+  - [x] Página Segurança da Balada
+  - [x] Página Exercício de Comparação de Altura
+  - [x] Página Inverção de Ordem
+  - [x] Página Data
+- [x] Finalização do projeto com README.md
