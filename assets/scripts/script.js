@@ -108,7 +108,7 @@ const inserirDados = () => {
     let valorAltura = document.getElementById("valorAltura").value;
     let valorSexo = document.getElementById("valorSexo").value;
 
-    bancoAltura.push(parseInt(valorAltura));
+    bancoAltura.push(parseFloat(valorAltura));
     bancoSexo.push(valorSexo);
 
 }
@@ -117,7 +117,9 @@ const listarQuantidadeHomens = () => {
 
     const quantidadeHomens = bancoSexo.filter(x => x == 'masculino').length;
 
-    document.getElementById("listaPessoas").innerHTML = quantidadeHomens;
+    const mensagem = `Homens: <b>${quantidadeHomens}</b>`
+
+    document.getElementById("listaPessoas").innerHTML = mensagem;
 
 }
 
@@ -125,7 +127,9 @@ const listarQuantidadeMulheres = () => {
 
     const quantidadeMulheres = bancoSexo.filter(x => x == 'feminino').length;
 
-    document.getElementById("listaPessoas").innerHTML = quantidadeMulheres;
+    const mensagem = `Mulheres: <b>${quantidadeMulheres}</b>`
+
+    document.getElementById("listaPessoas").innerHTML = mensagem;
 
 }
 
@@ -135,7 +139,7 @@ const listarDadosMaiorAltura = () => {
     const indexMaiorAltura = bancoAltura.indexOf(maiorAltura);
     const sexoMaiorAltura = bancoSexo[indexMaiorAltura].toUpperCase();
 
-    const dadosMaiorAltura = `A maior altura cadastrada é ${maiorAltura} e o sexo dessa pessoa é <b>${sexoMaiorAltura}</b>`
+    const dadosMaiorAltura = `A maior altura cadastrada é <b>${maiorAltura}m</b> e o sexo dessa pessoa é <b>${sexoMaiorAltura}</b>`
 
 
     document.getElementById("listaPessoas").innerHTML = dadosMaiorAltura;

@@ -1,0 +1,116 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,700;1,900&display=swap');
+
+.guinnes-altura {
+
+    background-image: url(../img/backgrounds/backgroundGuinnesAltura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-guinnes-altura {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.container-form-guinnes-altura {
+
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    width: 55%;
+    height: 45%;
+
+}
+
+.container-input-guinnes-altura {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-input-guinnes-altura label {
+
+    margin: 15px;
+
+}
+
+.container-input-guinnes-altura input {
+
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.buttons-guinnes-altura {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+#listaPessoas {
+    
+    margin: 15px;
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+
+#listaPessoas b {
+    
+    margin: 15px;
+    color: orangered;
+    font-size: 25px;
+    
+}
+
+.buttons-guinnes-altura a {
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px 0px 15px 6px;
+    border-radius: 5px;
+
+}
+
+.buttons-guinnes-altura a:hover {
+
+    background-color: rgba(0, 0, 0, 0.797);
+
+}
+
+.buttons-guinnes-altura button {
+
+    background-color: blue;
+    color: white;
+    margin: 5px 0px 15px 6px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.buttons-guinnes-altura button:hover {
+
+    background-color: rgba(0, 0, 255, 0.852);
+    cursor: pointer;
+
+}
