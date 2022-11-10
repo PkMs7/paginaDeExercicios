@@ -5,24 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styleData.css">
     <script src="../scripts/script.js" defer></script>
     <title>Data</title>
 </head>
 
-<body>
-    <h1>Quebrar a informação de data (dd/mm/YYYY)</h1>
+<body class="data">
 
-    <label for="">Informe uma data</label>
-    <input type="date" id="valorData"><br>
+    <div class="container-data">
 
-    <button onclick="transformarData()">Enviar Data</button>
+        <h1>Quebrar a informação de data (dd/mm/YYYY)</h1>
 
-    <hr>
+        <div class="container-form-data">
+            <div class="container-input-data">
+                <label for="">Informe uma data</label>
+                <input type="date" id="valorData"><br>
+            </div>
 
-    <div id="dataSeparada"></div>
+            <div id="dataSeparada"></div>
+            
+            <div class="buttons-data">
+                <button onclick="transformarData()">Enviar Data</button>
+                <a href="../../index.html">Voltar</a>
+            </div>            
+        </div>
+    </div>
 
-    <div><a href="../../index.html">Voltar</a></div>
 </body>
 
 </html>

@@ -185,9 +185,9 @@ const transformarData = () => {
     let mes = valorData[5] + valorData[6];
     let ano = valorData[0] + valorData[1] + valorData[2] + valorData[3];
 
-    let mensagem = `O dia selecionado foi: ${dia}<br>
-                    O mês selecionado foi: ${mes}<br>
-                    O ano selecionado foi: ${ano}`;
+    let mensagem = `O dia selecionado foi: <b>${dia}</b><br>
+                    O mês selecionado foi: <b>${mes}</b><br>
+                    O ano selecionado foi: <b>${ano}</b>`;
 
     document.getElementById("dataSeparada").innerHTML = mensagem;
 

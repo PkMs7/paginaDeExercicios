@@ -1,8 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,700;1,900&display=swap');
 
-/* Page: Index */
-
 body {
 
     background-image: url(../img/backgrounds/backgroundIndex.jpg);
