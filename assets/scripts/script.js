@@ -1,3 +1,11 @@
+// Funções genéricas
+
+const resetInput = () => {
+
+    document.getElementsByTagName('input')[0].value = '';
+
+}
+
 // Exercício Raiz Quadrada
 
 const calcularRaizQuadrada = () => {
@@ -15,7 +23,7 @@ const imprimirRaizQuadrada = () => {
 
     let impressao = `A raiz quadrada de ${valor} é <b>${calcularRaizQuadrada().toFixed(2)}</b>`
 
-    document.getElementById("resultadoRaizQuadrada").innerHTML = impressao;    
+    document.getElementById("resultadoRaizQuadrada").innerHTML = impressao;
 
 }
 
@@ -31,6 +39,8 @@ const inserirNumeroNaLista = () => {
     bancoNumeros.push(valor);
 
     imprimirListaDeNumeros();
+
+    resetInput();
 
 }
 
@@ -71,6 +81,8 @@ const inserirIdadeNaLista = () => {
 
     imprimirListaIdades();
 
+    resetInput();
+
 }
 
 const imprimirListaIdades = () => {
@@ -110,6 +122,8 @@ const inserirDados = () => {
 
     bancoAltura.push(parseFloat(valorAltura));
     bancoSexo.push(valorSexo);
+
+    resetInput();
 
 }
 
@@ -158,6 +172,8 @@ const inserirNomes = () => {
     bancoNomes.push(valorNome);
 
     imprimirNomes();
+
+    resetInput();
 
 }
 
